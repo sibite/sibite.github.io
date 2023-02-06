@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="theme-color" content="#00097A">
+		<title>The Mandelbrot Set</title>
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<canvas id="canvas"></canvas>
+	    <div id="zoomer"></div>
+			<div id="gui">
+				<div class="container">
+					<div id="saved-container">
+					</div>
+					<div id="elements">
+						<div class="gui-element gui-button" id="saved-button">Saved</div>
+					</div>
+					<span id="zoom" class="gui-element"></span>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="colorTools.js"></script>
+		<script type="text/javascript" src="colorSets.js"></script>
+		<script type="text/javascript" src="mandelbrot.js"></script>
+		<script type="text/javascript" src="presets.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
